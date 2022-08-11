@@ -142,3 +142,5 @@ function _dotnet_bash_complete()
 }
 
 complete -f -F _dotnet_bash_complete dotnet
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
