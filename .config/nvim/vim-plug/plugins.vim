@@ -28,7 +28,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/fzf.vim'
 
     "Line Indentions - github.com/lukas-reinke/indent-blankline.nvim
-    Plug 'lukas-reineke/indent-blankline.nvim'
+    "Plug 'lukas-reineke/indent-blankline.nvim'
 
     "Markup for Note Taking
     Plug 'nvim-neorg/neorg' | Plug 'nvim-lua/plenary.nvim'
@@ -73,3 +73,4 @@ let g:indent_blankline_char = '|'
 
 let g:LanguageClient_loadSettings = 1 " Use an absolute configuration path if you want system-wide settings
 let g:LanguageClient_settingsPath = '/home/ys/.config/nvim/settings.json'
+let g:termdebug_use_prompt=1
