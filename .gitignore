@@ -1,4 +1,5 @@
 .config/*
 !/.config/nvim/
 !/.config/Debauchee/
+!/.config/tmuxinator/
 !/.config/neofetch/
