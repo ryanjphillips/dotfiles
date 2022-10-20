@@ -145,3 +145,4 @@ complete -f -F _dotnet_bash_complete dotnet
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 export EDITOR='nvim'
+tmuxinator start win1

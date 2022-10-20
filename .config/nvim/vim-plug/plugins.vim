@@ -1,3 +1,5 @@
+"To do: REPLACE PATHS WITH Enviroment Variables"
+
 " auto-install vim-plug
 if empty(glob('~/.config/nvim/autoload/plug.vim'))
   silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
@@ -19,6 +21,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     \ 'branch': 'next',
     \ 'do': 'bash install.sh',
     \ }
+
+    " Ale Linter"
+    Plug 'dense-analysis/ale'
 
     "C/C++ Language Server"
     "https://github.com/jacobdufault/cquery/wiki/Neovi"
@@ -74,3 +79,6 @@ let g:indent_blankline_char = '|'
 let g:LanguageClient_loadSettings = 1 " Use an absolute configuration path if you want system-wide settings
 let g:LanguageClient_settingsPath = '/home/ys/.config/nvim/settings.json'
 let g:termdebug_use_prompt=1
+
+"Ale Linter settings"
+let b:ale_linters = {'javascript': ['eslint']}

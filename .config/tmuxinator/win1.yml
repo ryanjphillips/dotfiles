@@ -7,9 +7,9 @@ windows:
   - Programming:
       layout: c91b,239x62,0,0{119x62,0,0,0,119x62,120,0[119x24,120,0,2,119x25,120,25,3,119x11,120,51,4]} 
       panes:
+        - cd /home/ys/ && clear
         - cd /home/ys/Code && clear
-        - cd /home/ys/Code && clear
-        - cd /home/ys/Code && clear
+        - cd /home/ys/Notes && clear
         - ncspot
   - System:
       layout: even-vertical
