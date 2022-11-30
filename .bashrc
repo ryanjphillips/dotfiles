@@ -115,22 +115,29 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+
+#  !!!!!!!!!!!!!! NON-AUTOGENERATE CUSTOMIZTION BELOW !!!!!!!!!!!!!!
+
+
+# mssql-tools
 export PATH="$PATH:/opt/mssql-tools/bin:/home/ys/scripts:"
 . "$HOME/.cargo/env"
 
+# nvm - setup
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+# SDKMAN - Java Version Manager
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 # Use Vim key bindings for the bash shell
-
 set -o vi
-# bash parameter completion for the dotnet CLI
 
+# bash parameter completion for the dotnet CLI
 function _dotnet_bash_complete()
 {
   local cur="${COMP_WORDS[COMP_CWORD]}" IFS=$'\n'
@@ -144,5 +151,18 @@ function _dotnet_bash_complete()
 complete -f -F _dotnet_bash_complete dotnet
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+# Default Editor for Bash
 export EDITOR='nvim'
+
+# tmuxinator start setup config located at /home/ys/.config/tmuxinator/win1.yml
 tmuxinator start win1
+
+# Jia and Firebase Variables - Can Find the File listed on the line below.
+source /home/ys/Code/WorkCode/Jia/.firebaseconfig.sh
+export JIA_HOME="/home/ys/Code/WorkCode/Jia/Jia"
+
+# Android Emulator and SDK Setup
+export PATH=$PATH:"/home/ys/.yarn/releases/yarn-1.22.19"
+export PATH=$PATH:"/home/ys/.android/sdk/cmdline-tools/latest/bin/"
+export ANDROID_HOME="/home/ys/.android/sdk"
