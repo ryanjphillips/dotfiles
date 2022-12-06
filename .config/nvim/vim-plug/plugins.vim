@@ -71,8 +71,8 @@ nnoremap <leader>r :call LanguageClient#textDocument_rename()<CR>
 
 let g:LanguageClient_loggingLevel = 'INFO'
 let g:LanguageClient_virtualTextPrefix = ''
-let g:LanguageClient_loggingFile =  expand('./lsc.log')
-let g:LanguageClient_serverStderr = expand('./lsc.log')
+let g:LanguageClient_loggingFile =  expand('/home/ys/.config/nvim/vim-plug/lsc.log')
+let g:LanguageClient_serverStderr = expand('/home/ys/.config/nvim/vim-plug/lsc.log')
 let g:indent_blankline_show_end_of_line = v:true 
 let g:indent_blankline_space_char_blankline = '|' 
 let g:indent_blankline_show_current_context = v:true
