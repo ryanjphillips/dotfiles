@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="empty"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=2;x=3752;y=540"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="30"/>
+      <property name="background-style" type="uint" value="2"/>
+      <property name="background-alpha" type="empty"/>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="63"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="8"/>
+        <value type="int" value="1"/>
+        <value type="int" value="23"/>
+        <value type="int" value="22"/>
+        <value type="int" value="13"/>
+        <value type="int" value="16"/>
+        <value type="int" value="24"/>
+        <value type="int" value="2"/>
+      </property>
+      <property name="span-monitors" type="bool" value="false"/>
+      <property name="mode" type="uint" value="0"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="disable-struts" type="bool" value="false"/>
+      <property name="output-name" type="string" value="Primary"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.741176"/>
+        <value type="double" value="0.258824"/>
+        <value type="double" value="0.568627"/>
+        <value type="double" value="1.000000"/>
+      </property>
+      <property name="autohide-behavior" type="uint" value="0"/>
+      <property name="icon-size" type="uint" value="30"/>
+    </property>
+    <property name="dark-mode" type="bool" value="false"/>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="empty"/>
+    <property name="plugin-2" type="string" value="systray">
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="redshift-gtk"/>
+        <value type="string" value="screenkey"/>
+        <value type="string" value="hexchat"/>
+        <value type="string" value="rhythmbox"/>
+        <value type="string" value="sticky.py"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="mintupdate.py"/>
+        <value type="string" value="discord"/>
+        <value type="string" value="tray.py"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="Screenkey"/>
+        <value type="string" value="droidcam"/>
+        <value type="string" value="Barrier"/>
+        <value type="string" value="ownCloud"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="obs"/>
+        <value type="string" value="Slack1"/>
+        <value type="string" value="discord1"/>
+      </property>
+    </property>
+    <property name="plugin-3" type="empty">
+      <property name="items" type="empty"/>
+    </property>
+    <property name="plugin-4" type="empty">
+      <property name="items" type="empty"/>
+    </property>
+    <property name="plugin-5" type="empty">
+      <property name="items" type="empty"/>
+    </property>
+    <property name="plugin-6" type="empty">
+      <property name="show-handle" type="empty"/>
+      <property name="middle-click" type="empty"/>
+    </property>
+    <property name="plugin-7" type="empty">
+      <property name="expand" type="empty"/>
+      <property name="style" type="empty"/>
+    </property>
+    <property name="plugin-8" type="string" value="separator">
+      <property name="names-visible" type="empty"/>
+      <property name="show-frame" type="empty"/>
+      <property name="expand" type="bool" value="false"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-9" type="empty"/>
+    <property name="plugin-10" type="empty"/>
+    <property name="plugin-11" type="empty"/>
+    <property name="plugin-12" type="empty">
+      <property name="enable-keyboard-shortcuts" type="empty"/>
+      <property name="enable-mpris" type="empty"/>
+      <property name="mixer-command" type="empty"/>
+      <property name="show-notifications" type="empty"/>
+    </property>
+    <property name="plugin-13" type="empty">
+      <property name="digital-format" type="string" value="%a %_d %b, %R"/>
+      <property name="mode" type="uint" value="4"/>
+      <property name="timezone" type="string" value=""/>
+      <property name="show-meridiem" type="bool" value="false"/>
+      <property name="show-seconds" type="bool" value="true"/>
+      <property name="tooltip-format" type="string" value="%x"/>
+      <property name="flash-separators" type="bool" value="true"/>
+      <property name="show-military" type="bool" value="true"/>
+    </property>
+    <property name="plugin-16" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-22" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-23" type="string" value="separator"/>
+    <property name="plugin-24" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="chromium.instance23604;chromium.instance2870;chromium.instance3395;chromium.instance4355;chromium.instance4806;chromium.instance7267;firefox.instance1011913;firefox.instance10200;firefox.instance102261;firefox.instance10358;firefox.instance10535;firefox.instance10624;firefox.instance108480;firefox.instance10935;firefox.instance11086;firefox.instance111427;firefox.instance111810;firefox.instance11199;firefox.instance11220;firefox.instance11548;firefox.instance116125;firefox.instance1283559;firefox.instance1292581;firefox.instance13157;firefox.instance133867;firefox.instance1370553;firefox.instance147730;firefox.instance15042;firefox.instance15993;firefox.instance1630;firefox.instance1676;firefox.instance171329;firefox.instance17382;firefox.instance1743552;firefox.instance18456;firefox.instance18608;firefox.instance1863;firefox.instance18689;firefox.instance1871;firefox.instance1873;firefox.instance1904;firefox.instance1908;firefox.instance19101;firefox.instance1935;firefox.instance1945;firefox.instance1959;firefox.instance1978;firefox.instance19886;firefox.instance1998;firefox.instance1999;firefox.instance2007;firefox.instance2009;firefox.instance20257;firefox.instance2029;firefox.instance2048;firefox.instance2050;firefox.instance2062;firefox.instance2063;firefox.instance206496;firefox.instance2066;firefox.instance2076;firefox.instance2080;firefox.instance2086;firefox.instance21168;firefox.instance211714;firefox.instance2123;firefox.instance2130;firefox.instance2142;firefox.instance21423;firefox.instance2146;firefox.instance2162;firefox.instance2167;firefox.instance2175;firefox.instance2178569;firefox.instance2183;firefox.instance2184;firefox.instance2199;firefox.instance2225;firefox.instance2226;firefox.instance2241;firefox.instance2244;firefox.instance22466;firefox.instance2250;firefox.instance2255;firefox.instance2262;firefox.instance2272;firefox.instance2355;firefox.instance2358;firefox.instance24371;firefox.instance2450;firefox.instance24669;firefox.instance2480;firefox.instance2501;firefox.instance2504;firefox.instance25076;firefox.instance2508;firefox.instance253147;firefox.instance25413;firefox.instance25651;firefox.instance2570;firefox.instance25747;firefox.instance2641;firefox.instance2648;firefox.instance26544;firefox.instance2686;firefox.instance26975;firefox.instance2716;firefox.instance27198;firefox.instance27253;firefox.instance2730;firefox.instance27317;firefox.instance2776;firefox.instance277850;firefox.instance28436;firefox.instance2895;firefox.instance2933;firefox.instance2965;firefox.instance30051;firefox.instance301860;firefox.instance303298;firefox.instance3077;firefox.instance3087;firefox.instance31228;firefox.instance31351;firefox.instance33525;firefox.instance33608;firefox.instance3448;firefox.instance34811;firefox.instance3533;firefox.instance3631;firefox.instance3633;firefox.instance37269;firefox.instance3727;firefox.instance377307;firefox.instance3806;firefox.instance3868;firefox.instance3879;firefox.instance38852;firefox.instance3974;firefox.instance4125;firefox.instance4261;firefox.instance4291;firefox.instance4384;firefox.instance43856;firefox.instance4437;firefox.instance44420;firefox.instance459568;firefox.instance475558;firefox.instance477256;firefox.instance4916;firefox.instance49561;firefox.instance5078;firefox.instance5104;firefox.instance51313;firefox.instance523816;firefox.instance52507;firefox.instance5316;firefox.instance5351;firefox.instance53950;firefox.instance5517;firefox.instance553715;firefox.instance556004;firefox.instance559834;firefox.instance5677;firefox.instance5688;firefox.instance5733;firefox.instance5758;firefox.instance5987;firefox.instance60456;firefox.instance606109;firefox.instance61058;firefox.instance61478;firefox.instance615384;firefox.instance6163;firefox.instance65883;firefox.instance6649;firefox.instance6698;firefox.instance670182;firefox.instance6786;firefox.instance6810;firefox.instance6836;firefox.instance6978;firefox.instance70801;firefox.instance7129;firefox.instance71669;firefox.instance7438;firefox.instance74736;firefox.instance7477;firefox.instance7530;firefox.instance788346;firefox.instance796608;firefox.instance80093;firefox.instance818528;firefox.instance8491;firefox.instance8595;firefox.instance86658;firefox.instance881902;firefox.instance88432;firefox.instance8912;firefox.instance894414;firefox.instance8961;firefox.instance898777;firefox.instance90056;firefox.instance9037;firefox.instance9045;firefox.instance926806;firefox.instance9505;firefox.instance96288;firefox.instance99270;io.github.celluloid_player.Celluloid.instance-1;ncspot;rhythmbox;spotify"/>
+    </property>
+  </property>
+</channel>

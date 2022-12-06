@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="pointers" version="1.0">
+  <property name="Logitech_Gaming_Mouse_G502_Keyboard" type="empty">
+    <property name="RightHanded" type="bool" value="true"/>
+    <property name="Threshold" type="int" value="4"/>
+    <property name="Acceleration" type="double" value="6.000000"/>
+    <property name="Properties" type="empty">
+      <property name="Device_Enabled" type="int" value="1"/>
+    </property>
+  </property>
+  <property name="Razer_Razer_BlackWidow_Ultimate_2016_Keyboard" type="empty">
+    <property name="RightHanded" type="bool" value="true"/>
+    <property name="Threshold" type="int" value="6"/>
+    <property name="Acceleration" type="double" value="0.000000"/>
+  </property>
+  <property name="Logitech_Gaming_Mouse_G502" type="empty">
+    <property name="RightHanded" type="bool" value="true"/>
+    <property name="Threshold" type="int" value="1"/>
+    <property name="Acceleration" type="double" value="10.000000"/>
+    <property name="Properties" type="empty">
+      <property name="Device_Enabled" type="int" value="1"/>
+    </property>
+  </property>
+</channel>
