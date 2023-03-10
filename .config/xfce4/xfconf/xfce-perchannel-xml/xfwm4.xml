@@ -22,7 +22,7 @@
     <property name="easy_click" type="empty"/>
     <property name="focus_hint" type="empty"/>
     <property name="focus_new" type="empty"/>
-    <property name="frame_opacity" type="int" value="90"/>
+    <property name="frame_opacity" type="int" value="0"/>
     <property name="full_width_title" type="empty"/>
     <property name="inactive_opacity" type="int" value="100"/>
     <property name="maximized_offset" type="empty"/>
@@ -53,9 +53,9 @@
     <property name="snap_to_border" type="empty"/>
     <property name="snap_to_windows" type="empty"/>
     <property name="snap_width" type="int" value="10"/>
-    <property name="theme" type="string" value="Mint-Y-Red"/>
+    <property name="theme" type="string" value="Sweet-master"/>
     <property name="tile_on_move" type="bool" value="false"/>
-    <property name="title_alignment" type="empty"/>
+    <property name="title_alignment" type="string" value="center"/>
     <property name="title_font" type="empty"/>
     <property name="title_horizontal_offset" type="empty"/>
     <property name="title_shadow_active" type="empty"/>

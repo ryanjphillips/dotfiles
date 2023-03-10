@@ -38,14 +38,16 @@
       <property name="save" type="bool" value="false"/>
     </property>
   </property>
-  <property name="item-icon-size" type="uint" value="0"/>
+  <property name="item-icon-size" type="uint" value="3"/>
   <property name="icon-view" type="bool" value="false"/>
   <property name="always-center" type="bool" value="true"/>
   <property name="sort-by-frecency" type="bool" value="true"/>
-  <property name="hide-category-pane" type="bool" value="true"/>
+  <property name="hide-category-pane" type="bool" value="false"/>
   <property name="last" type="empty">
-    <property name="window-height" type="int" value="575"/>
-    <property name="window-width" type="int" value="927"/>
+    <property name="window-height" type="int" value="658"/>
+    <property name="window-width" type="int" value="964"/>
     <property name="pane-position" type="int" value="180"/>
   </property>
+  <property name="text-beside-icons" type="bool" value="false"/>
+  <property name="single-window" type="bool" value="true"/>
 </channel>

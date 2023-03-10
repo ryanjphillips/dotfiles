@@ -4,7 +4,7 @@
   <property name="backdrop" type="empty">
     <property name="screen0" type="empty">
       <property name="monitor0" type="empty">
-        <property name="image-path" type="string" value="/home/ys/Downloads/3baf2db0d14efdf567a4a359131d4815-2808949378.jpeg"/>
+        <property name="image-path" type="string" value="/home/ys/Pictures/Wallpaper/Neon-Nights.jpeg"/>
         <property name="last-image" type="empty"/>
         <property name="last-single-image" type="empty"/>
         <property name="brightness" type="empty"/>
@@ -47,7 +47,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="1"/>
-          <property name="last-image" type="string" value="/home/ys/Downloads/3baf2db0d14efdf567a4a359131d4815-2808949378.jpeg"/>
+          <property name="last-image" type="string" value="/home/ys/Pictures/Wallpaper/Neon-Nights.jpeg"/>
           <property name="backdrop-cycle-enable" type="bool" value="false"/>
         </property>
         <property name="workspace1" type="empty">
@@ -114,7 +114,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="1"/>
-          <property name="last-image" type="string" value="/home/ys/Downloads/3baf2db0d14efdf567a4a359131d4815-2808949378.jpeg"/>
+          <property name="last-image" type="string" value="/home/ys/Pictures/Wallpaper/Neon-Nights.jpeg"/>
           <property name="backdrop-cycle-enable" type="bool" value="false"/>
         </property>
         <property name="workspace1" type="empty">
@@ -159,7 +159,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/home/ys/Downloads/3baf2db0d14efdf567a4a359131d4815-2808949378.jpeg"/>
+          <property name="last-image" type="string" value="/home/ys/Pictures/Wallpaper/Neon-Nights.jpeg"/>
           <property name="backdrop-cycle-enable" type="bool" value="false"/>
         </property>
         <property name="workspace1" type="empty">

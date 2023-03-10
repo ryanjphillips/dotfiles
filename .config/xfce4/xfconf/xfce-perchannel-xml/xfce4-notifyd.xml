@@ -11,12 +11,17 @@
     <property name="known_applications" type="array">
       <value type="string" value="discord"/>
       <value type="string" value="Firefox"/>
+      <value type="string" value="net.lutris.Lutris"/>
       <value type="string" value="nm-applet"/>
+      <value type="string" value="notify-send"/>
       <value type="string" value="org.xfce.Thunar"/>
       <value type="string" value="ownCloud"/>
       <value type="string" value="rhythmbox"/>
       <value type="string" value="Slack"/>
       <value type="string" value="Spotify"/>
+      <value type="string" value="SteamTinkerLaunch"/>
+      <value type="string" value="System Config Printer Notification"/>
+      <value type="string" value="thunar-volman"/>
       <value type="string" value="Update Manager"/>
       <value type="string" value="Xfce volume control"/>
       <value type="string" value="Xfce volume daemon"/>

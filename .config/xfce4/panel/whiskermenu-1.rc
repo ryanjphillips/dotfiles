@@ -1,6 +1,6 @@
 favorites=
-recent=xfce-ui-settings.desktop,xfce-display-settings.desktop,xfce-keyboard-settings.desktop,xfce-wm-settings.desktop,firefox.desktop,xfce4-run.desktop,org.xfce.Catfish.desktop,mintinstall.desktop,owncloud.desktop,users.desktop
-button-icon=filled-xterm
+recent=pavucontrol.desktop,wine-Programs-Battle.net-Battle.net.desktop,xfce-ui-settings.desktop,ccsm.desktop,org.gnome.font-viewer.desktop,xfce4-settings-editor.desktop,xfce-wm-settings.desktop,xfce-session-settings.desktop,timeshift-gtk.desktop,org.gnome.DiskUtility.desktop
+button-icon=livepatch
 button-single-row=false
 show-button-title=false
 show-button-icon=true
@@ -25,7 +25,7 @@ profile-shape=0
 confirm-session-command=true
 menu-width=450
 menu-height=500
-menu-opacity=100
+menu-opacity=75
 command-settings=xfce4-settings-manager
 show-command-settings=true
 command-lockscreen=xflock4
