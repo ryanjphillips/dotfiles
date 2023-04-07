@@ -1,7 +1,6 @@
 [Configuration]
 BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
-BackgroundDarkness=0.700000
-FontName=FreeMono Bold Italic 12
+BackgroundDarkness=0.820000
 MiscAlwaysShowTabs=FALSE
 MiscBell=FALSE
 MiscBellUrgent=FALSE
@@ -28,15 +27,17 @@ MiscSlimTabs=FALSE
 MiscNewTabAdjacent=FALSE
 MiscSearchDialogOpacity=100
 MiscShowUnsafePasteDialog=TRUE
-FontUseSystem=TRUE
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
 MiscDefaultGeometry=200x60
 ColorForeground=#d7d7ebebf2f2
 ColorBackground=#2c2c2c
-ColorCursor=#dcdcdc
-ColorPalette=rgb(63,63,63);rgb(150,33,166);rgb(150,33,166);rgb(223,175,143);rgb(52,61,115);rgb(220,140,195);rgb(140,208,211);rgb(220,220,220);rgb(150,33,166);rgb(150,33,166);rgb(175,108,205);rgb(240,223,175);rgb(27,32,51);rgb(236,147,211);rgb(147,224,227);rgb(255,255,255)
+ColorCursor=#96962120a6a6
+ColorPalette=rgb(63,63,63);rgb(150,33,166);rgb(150,33,166);rgb(223,175,143);rgb(60,71,135);rgb(220,140,195);rgb(140,208,211);rgb(220,220,220);rgb(150,33,166);rgb(150,33,166);rgb(175,108,205);rgb(240,223,175);rgb(27,32,51);rgb(236,147,211);rgb(147,224,227);rgb(255,255,255)
 TabActivityColor=#fefea4a3fafa
 ColorSelection=#50506464a9a9
 ColorBoldIsBright=FALSE
-ColorUseTheme=TRUE
+ColorCursorForeground=#96962120a6a6
+FontAllowBold=FALSE
+FontName=Liberation Mono 11
+FontUseSystem=TRUE
 

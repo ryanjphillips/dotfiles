@@ -168,3 +168,7 @@ export PATH=$PATH:"/home/ys/.android/sdk/cmdline-tools/latest/bin/"
 export ANDROID_HOME="/home/ys/.android/sdk"
 export LFS="/mnt/lfs"
 export PKG_CONFIG_PATH="/usr/local/lib/x86_64-linux-gnu/pkgconfig:/usr/local/lib/pkgconfig:/usr/local/share/pkgconfig:/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/lib/pkgconfig:/usr/share/pkgconfig"
+
+#Project Scholar Variables
+
+export SCHOLAR="/home/ys/Code/project/project-scholar/src"

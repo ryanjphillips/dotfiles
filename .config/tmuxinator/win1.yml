@@ -7,15 +7,33 @@ windows:
       layout: 6bc7,239x62,0,0{119x62,0,0,0,119x62,120,0[119x40,120,0,5,119x21,120,41,6]}
       panes:
         - cd $HOME && clear
-        - cd $HOME/Code && clear
+        - cd $HOME/ && clear
+        - cd $HOME && clear 
+  - RaspberryPi:
+      layout: 6bc7,239x62,0,0{119x62,0,0,0,119x62,120,0[119x40,120,0,5,119x21,120,41,6]}
+      panes:
+        - ssh pi@192.188.0.131 
+        - ssh pi@192.168.0.131
+        - ssh pi@192.168.0.131
+  - Music:
+      layout: even-vertical
+      panes:
         - ncspot
-  - Jia-Development: 
+        - cava
+  - Project-Scholar: 
       layout: c91b,239x62,0,0{119x62,0,0,0,119x62,120,0[119x24,120,0,2,119x25,120,25,3,119x11,120,51,4]} 
       panes:
-        - cd $JIA_HOME && clear
-        - cd $JIA_HOME && clear
-        - cd $JIA_HOME && clear
-        - cd $JIA_HOME && clear
+        - cd $SCHOLAR && clear
+        - cd $SCHOLAR && clear
+        - cd $SCHOLAR && clear
+        - cd $SCHOLAR && clear
+  - Notes: 
+      layout: c91b,239x62,0,0{119x62,0,0,0,119x62,120,0[119x24,120,0,2,119x25,120,25,3,119x11,120,51,4]} 
+      panes:
+        - cd ~ys/Notes && clear
+        - cd ~ys/Notes && clear
+        - cd ~ys/Notes && clear
+        - cd ~ys/Notes && clear
   - System:
       layout: even-vertical
       panes:

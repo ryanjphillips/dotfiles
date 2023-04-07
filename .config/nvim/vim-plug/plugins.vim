@@ -13,7 +13,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     \ 'branch': 'next',
     \ 'do': 'bash install.sh',
     \ }
-     
+
+"https://github.com/hrsh7th/nvim-cmp"    
     Plug 'neovim/nvim-lspconfig'
     Plug 'hrsh7th/cmp-nvim-lsp'
     Plug 'hrsh7th/cmp-buffer'
@@ -26,8 +27,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Ale Linter"
     Plug 'dense-analysis/ale'
-
-    let b:ale_linters = {'javascript': ['eslint']}
+let b:ale_linters = {'javascript': ['eslint']}
 
     "C/C++ Language Server"
     "https://github.com/jacobdufault/cquery/wiki/Neovi"
@@ -86,6 +86,8 @@ let g:LanguageClient_settingsPath = $HOME . '.config/nvim/settings.json'
 let g:termdebug_use_prompt=1
 set completeopt=menu,menuone,noselect
 
+
+"https://github.com/hrsh7th/nvim-cmp"    
 lua <<EOF
   local cmp = require'cmp'
 
