@@ -38,4 +38,4 @@ windows:
       layout: even-vertical
       panes:
         - btm
-        - cd / && clear
+        - nvtop 

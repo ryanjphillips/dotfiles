@@ -159,8 +159,6 @@ export EDITOR='nvim'
 tmuxinator start win1
 
 # Jia and Firebase Variables - Can Find the File listed on the line below.
-source /home/ys/Code/WorkCode/Jia/.firebaseconfig.sh
-export JIA_HOME="/home/ys/Code/WorkCode/Jia/Jia"
 
 # Android Emulator and SDK Setup
 export PATH=$PATH:"/home/ys/.yarn/releases/yarn-1.22.19"
@@ -172,3 +170,7 @@ export PKG_CONFIG_PATH="/usr/local/lib/x86_64-linux-gnu/pkgconfig:/usr/local/lib
 #Project Scholar Variables
 
 export SCHOLAR="/home/ys/Code/project/project-scholar/src"
+
+#Uncrustify - A C/C++ Code Formatter
+
+export UNCRUSTIFY_CONFIG="/home/ys/.uncrustify/config/style.cfg"
