@@ -1,5 +1,5 @@
 favorites=
-recent=timeshift-gtk.desktop,barrier.desktop,light-locker-settings.desktop,pavucontrol.desktop,wine-Programs-Battle.net-Battle.net.desktop,xfce-ui-settings.desktop,ccsm.desktop,org.gnome.font-viewer.desktop,xfce4-settings-editor.desktop,xfce-wm-settings.desktop
+recent=xfce-session-settings.desktop,mintdrivers.desktop,mintinstall.desktop,io.github.Hexchat.desktop,timeshift-gtk.desktop,org.gnome.DiskUtility.desktop,barrier.desktop,light-locker-settings.desktop,pavucontrol.desktop,wine-Programs-Battle.net-Battle.net.desktop
 button-icon=livepatch
 button-single-row=false
 show-button-title=false

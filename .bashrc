@@ -173,4 +173,8 @@ export SCHOLAR="/home/ys/Code/project/project-scholar/src"
 
 #Uncrustify - A C/C++ Code Formatter
 
-export UNCRUSTIFY_CONFIG="/home/ys/.uncrustify/config/style.cfg"
+export UNCRUSTIFY_CONFIG="/home/ys/.uncrustify/config/config.cfg"
+
+# LaTeX Templates
+
+export LATEXTEMP="/home/ys/.latexTemplates/"

@@ -7,14 +7,14 @@ windows:
       layout: 6bc7,239x62,0,0{119x62,0,0,0,119x62,120,0[119x40,120,0,5,119x21,120,41,6]}
       panes:
         - cd $HOME && clear
-        - cd $HOME/ && clear
+        - cd $HOME && clear
         - cd $HOME && clear 
   - RaspberryPi:
       layout: 6bc7,239x62,0,0{119x62,0,0,0,119x62,120,0[119x40,120,0,5,119x21,120,41,6]}
       panes:
-        - ssh pi@192.188.0.131 
-        - ssh pi@192.168.0.131
-        - ssh pi@192.168.0.131
+        - cd $HOME && clear 
+        - cd $HOME && clear 
+        - cd $HOME && clear 
   - Music:
       layout: even-vertical
       panes:
