@@ -1,11 +1,11 @@
 app=drawing
 last_user=
-screenshot_dir=file:/home/ys/dotfiles/.latexTemplates/calculus1/content
+screenshot_dir=file:/home/ys/Pictures/Screen-Shots
 action=1
 delay=1
 region=3
 show_mouse=1
-last_extension=jpg
+last_extension=png
 enable_imgur_upload=true
 show_border=1
 
