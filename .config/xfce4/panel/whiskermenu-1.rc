@@ -1,5 +1,5 @@
 favorites=
-recent=firefox.desktop,timeshift-gtk.desktop,xfce4-taskmanager.desktop,com.github.xournalpp.xournalpp.desktop,xfce-session-settings.desktop,mintdrivers.desktop,mintinstall.desktop,io.github.Hexchat.desktop,org.gnome.DiskUtility.desktop
+recent=xfce4-taskmanager.desktop,firefox.desktop,timeshift-gtk.desktop,com.github.xournalpp.xournalpp.desktop,xfce-session-settings.desktop,mintdrivers.desktop,mintinstall.desktop,io.github.Hexchat.desktop,org.gnome.DiskUtility.desktop
 button-icon=livepatch
 button-single-row=false
 show-button-title=false
