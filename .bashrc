@@ -178,3 +178,8 @@ export UNCRUSTIFY_CONFIG="/home/ys/.uncrustify/config/config.cfg"
 # LaTeX Templates
 
 export LATEXTEMP="/home/ys/.latexTemplates/"
+
+#Vim -> Neovim
+
+alias vi='nvim'
+alias vim='nvim'
