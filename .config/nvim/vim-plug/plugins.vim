@@ -39,10 +39,10 @@ call plug#end()
 
 let g:LanguageClient_serverCommands = {
       \ 'javascript': ['typescript-language-server', '--stdio'],
-      \ 'c': ['ccls', '--log-file=/tmp/cc.log'],
-      \ 'cpp': ['ccls', '--log-file=/tmp/cc.log'],
-      \ 'cuda': ['ccls', '--log-file=/tmp/cc.log'],
-      \ 'objc': ['ccls', '--log-file=/tmp/cc.log'],
+      \ 'c': ['clangd'],
+      \ 'cpp': ['clangd'],
+      \ 'cuda': ['clangd'],
+      \ 'objc': ['clangd'],
       \ }
 
 " Automatically start language server"
@@ -72,4 +72,4 @@ let g:indent_blankline_char = '|'
 "C/C++ Lang Server Config"
 
 let g:LanguageClient_loadSettings = 1 " Use an absolute configuration path if you want system-wide settings
-let g:LanguageClient_settingsPath = '/home/ys/.config/nvim/settings.json'
+let g:LanguageClient_settingsPath = '/home/lution/.config/nvim/settings.json'

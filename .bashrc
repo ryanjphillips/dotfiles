@@ -115,8 +115,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-export PATH="$PATH:/opt/mssql-tools/bin:/home/ys/scripts:"
-. "$HOME/.cargo/env"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -143,4 +141,35 @@ function _dotnet_bash_complete()
 
 complete -f -F _dotnet_bash_complete dotnet
 
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+# Default Editor for Bash
+export EDITOR='nvim'
+
+# tmuxinator start setup config located at /home/ys/.config/tmuxinator/win1.yml
+tmuxinator start win1
+
+# Jia and Firebase Variables - Can Find the File listed on the line below.
+
+# Android Emulator and SDK Setup
+export PATH=$PATH:"/home/ys/.yarn/releases/yarn-1.22.19"
+export PATH=$PATH:"/home/ys/.android/sdk/cmdline-tools/latest/bin/"
+export ANDROID_HOME="/home/ys/.android/sdk"
+export LFS="/mnt/lfs"
+export PKG_CONFIG_PATH="/usr/local/lib/x86_64-linux-gnu/pkgconfig:/usr/local/lib/pkgconfig:/usr/local/share/pkgconfig:/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/lib/pkgconfig:/usr/share/pkgconfig"
+
+#Project Scholar Variables
+
+export SCHOLAR="/home/ys/Code/project/project-scholar/src"
+
+#Uncrustify - A C/C++ Code Formatter
+
+export UNCRUSTIFY_CONFIG="/home/ys/.uncrustify/config/config.cfg"
+
+# LaTeX Templates
+
+export LATEXTEMP="/home/ys/.latexTemplates/"
+
+#Vim -> Neovim
+
+alias vi='nvim'
+alias vim='nvim'
+alias rer='xdg-open .' -f ~/.fzf.bash ] && source ~/.fzf.bash
