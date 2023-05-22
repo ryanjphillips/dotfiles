@@ -1,8 +1,0 @@
-#######
-LanguageClient 0.1.161
-#######
-20:12:55 INFO unnamed src/language_server_protocol.rs:3580 settings synced
-20:12:55 INFO unnamed src/language_server_protocol.rs:3607 Project root: /home/lution/dotfiles
-20:12:55 WARN unnamed src/language_server_protocol.rs:2786 Failed to start language server automatically. Failed to start language server (["clangd", "--log-file=/tmp/cc.log"])
-20:12:55 INFO unnamed src/language_server_protocol.rs:1946 text_document_did_open; params=Object({"bufnr": Number(1), "filename": String("/home/lution/dotfiles/.config/nvim/vim-plug/test.c"), "languageId": String("c"), "position": Object({"character": Number(0), "line": Number(0)}), "viewport": Object({"end": Number(1), "start": Number(0)})})
-20:12:55 INFO unnamed src/language_server_protocol.rs:2873 handle_cursor_moved; params=Object({"bufnr": Number(1), "buftype": String(""), "filename": String("/home/lution/dotfiles/.config/nvim/vim-plug/test.c"), "languageId": String("c"), "position": Object({"character": Number(0), "line": Number(0)}), "viewport": Object({"end": Number(1), "start": Number(0)})}) force_redraw=false

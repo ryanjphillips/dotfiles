@@ -125,21 +125,7 @@ export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 # Use Vim key bindings for the bash shell
-
 set -o vi
-# bash parameter completion for the dotnet CLI
-
-function _dotnet_bash_complete()
-{
-  local cur="${COMP_WORDS[COMP_CWORD]}" IFS=$'\n'
-  local candidates
-
-  read -d '' -ra candidates < <(dotnet complete --position "${COMP_POINT}" "${COMP_LINE}" 2>/dev/null)
-
-  read -d '' -ra COMPREPLY < <(compgen -W "${candidates[*]:-}" -- "$cur")
-}
-
-complete -f -F _dotnet_bash_complete dotnet
 
 # Default Editor for Bash
 export EDITOR='nvim'
@@ -147,29 +133,19 @@ export EDITOR='nvim'
 # tmuxinator start setup config located at /home/ys/.config/tmuxinator/win1.yml
 tmuxinator start win1
 
-# Jia and Firebase Variables - Can Find the File listed on the line below.
-
-# Android Emulator and SDK Setup
-export PATH=$PATH:"/home/ys/.yarn/releases/yarn-1.22.19"
-export PATH=$PATH:"/home/ys/.android/sdk/cmdline-tools/latest/bin/"
-export ANDROID_HOME="/home/ys/.android/sdk"
-export LFS="/mnt/lfs"
 export PKG_CONFIG_PATH="/usr/local/lib/x86_64-linux-gnu/pkgconfig:/usr/local/lib/pkgconfig:/usr/local/share/pkgconfig:/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/lib/pkgconfig:/usr/share/pkgconfig"
-
-#Project Scholar Variables
-
-export SCHOLAR="/home/ys/Code/project/project-scholar/src"
 
 #Uncrustify - A C/C++ Code Formatter
 
-export UNCRUSTIFY_CONFIG="/home/ys/.uncrustify/config/config.cfg"
+export UNCRUSTIFY_CONFIG="/home/lution/.uncrustify/config/config.cfg"
 
 # LaTeX Templates
 
-export LATEXTEMP="/home/ys/.latexTemplates/"
+export LATEXTEMP="/home/lution/.latexTemplates/"
 
 #Vim -> Neovim
 
 alias vi='nvim'
 alias vim='nvim'
-alias rer='xdg-open .' -f ~/.fzf.bash ] && source ~/.fzf.bash
+alias rer='xdg-open .' 
+. "$HOME/.cargo/env"
