@@ -1,7 +1,7 @@
 app=drawing
 last_user=
 screenshot_dir=file:/home/ys/Pictures/Screen-Shots
-action=4
+action=1
 delay=1
 region=3
 show_mouse=1
