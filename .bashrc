@@ -184,3 +184,5 @@ export LATEXTEMP="/home/ys/.latexTemplates/"
 alias vi='nvim'
 alias vim='nvim'
 alias rer='xdg-open .'
+
+export LEETCODE="/home/ys/.leetcode/"

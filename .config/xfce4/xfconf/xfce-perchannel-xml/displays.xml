@@ -84,7 +84,7 @@
         <property name="Y" type="double" value="1.000000"/>
       </property>
       <property name="Position" type="empty">
-        <property name="X" type="int" value="1920"/>
+        <property name="X" type="int" value="0"/>
         <property name="Y" type="int" value="0"/>
       </property>
     </property>
@@ -105,9 +105,9 @@
         <property name="Y" type="int" value="0"/>
       </property>
     </property>
-    <property name="HDMI-0" type="string" value="Toshiba America Info Systems Inc 72&quot;">
+    <property name="HDMI-0" type="string" value="AOC International 23&quot;">
       <property name="Active" type="bool" value="true"/>
-      <property name="EDID" type="string" value="1ae7a5e3abd31d9fbf9a0f332ae514386872cc7b"/>
+      <property name="EDID" type="string" value="da5d02739457c281c934018db21830e77d098ff0"/>
       <property name="Resolution" type="string" value="1920x1080"/>
       <property name="RefreshRate" type="double" value="60.000000"/>
       <property name="Rotation" type="int" value="0"/>
@@ -118,7 +118,7 @@
         <property name="Y" type="double" value="1.000000"/>
       </property>
       <property name="Position" type="empty">
-        <property name="X" type="int" value="0"/>
+        <property name="X" type="int" value="1920"/>
         <property name="Y" type="int" value="0"/>
       </property>
     </property>
@@ -205,7 +205,7 @@
         <property name="Y" type="double" value="1.000000"/>
       </property>
       <property name="Position" type="empty">
-        <property name="X" type="int" value="1920"/>
+        <property name="X" type="int" value="0"/>
         <property name="Y" type="int" value="0"/>
       </property>
     </property>
@@ -226,9 +226,9 @@
         <property name="Y" type="int" value="0"/>
       </property>
     </property>
-    <property name="HDMI-0" type="string" value="Toshiba America Info Systems Inc 72&quot;">
+    <property name="HDMI-0" type="string" value="AOC International 23&quot;">
       <property name="Active" type="bool" value="true"/>
-      <property name="EDID" type="string" value="1ae7a5e3abd31d9fbf9a0f332ae514386872cc7b"/>
+      <property name="EDID" type="string" value="da5d02739457c281c934018db21830e77d098ff0"/>
       <property name="Resolution" type="string" value="1920x1080"/>
       <property name="RefreshRate" type="double" value="60.000000"/>
       <property name="Rotation" type="int" value="0"/>
@@ -239,7 +239,7 @@
         <property name="Y" type="double" value="1.000000"/>
       </property>
       <property name="Position" type="empty">
-        <property name="X" type="int" value="0"/>
+        <property name="X" type="int" value="1920"/>
         <property name="Y" type="int" value="0"/>
       </property>
     </property>
