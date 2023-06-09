@@ -178,11 +178,12 @@ export UNCRUSTIFY_CONFIG="/home/ys/.uncrustify/config/config.cfg"
 # LaTeX Templates
 
 export LATEXTEMP="/home/ys/.latexTemplates/"
+export LEETCODE="/home/ys/.leetcode/"
+
+# Aliases
 
 #Vim -> Neovim
-
 alias vi='nvim'
 alias vim='nvim'
 alias rer='xdg-open .'
-
-export LEETCODE="/home/ys/.leetcode/"
+alias lr='clear'
