@@ -45,7 +45,7 @@
   <property name="hide-category-pane" type="bool" value="false"/>
   <property name="last" type="empty">
     <property name="window-height" type="int" value="658"/>
-    <property name="window-width" type="int" value="964"/>
+    <property name="window-width" type="int" value="1275"/>
     <property name="pane-position" type="int" value="180"/>
   </property>
   <property name="text-beside-icons" type="bool" value="false"/>

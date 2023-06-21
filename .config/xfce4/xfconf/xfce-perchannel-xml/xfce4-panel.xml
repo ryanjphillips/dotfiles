@@ -8,20 +8,19 @@
       <property name="position" type="string" value="p=2;x=3752;y=540"/>
       <property name="length" type="uint" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
-      <property name="size" type="uint" value="30"/>
+      <property name="size" type="uint" value="16"/>
       <property name="background-style" type="uint" value="2"/>
       <property name="background-alpha" type="empty"/>
       <property name="enter-opacity" type="uint" value="100"/>
       <property name="leave-opacity" type="uint" value="63"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="5"/>
-        <value type="int" value="1"/>
         <value type="int" value="10"/>
         <value type="int" value="9"/>
         <value type="int" value="11"/>
         <value type="int" value="13"/>
         <value type="int" value="12"/>
-        <value type="int" value="2"/>
+        <value type="int" value="1"/>
       </property>
       <property name="span-monitors" type="bool" value="false"/>
       <property name="mode" type="uint" value="0"/>
@@ -40,29 +39,15 @@
     <property name="dark-mode" type="bool" value="true"/>
   </property>
   <property name="plugins" type="empty">
-    <property name="plugin-1" type="empty"/>
-    <property name="plugin-2" type="string" value="systray">
+    <property name="plugin-1" type="string" value="systray">
       <property name="known-legacy-items" type="array">
         <value type="string" value="ibus panel"/>
-        <value type="string" value="hexchat"/>
-        <value type="string" value="system-config-printer"/>
-        <value type="string" value="thunar"/>
-        <value type="string" value="yad"/>
-        <value type="string" value="warpinator"/>
         <value type="string" value="tray.py"/>
-        <value type="string" value="networkmanager applet"/>
         <value type="string" value="mintupdate.py"/>
-        <value type="string" value="sticky.py"/>
-      </property>
-      <property name="known-items" type="array">
-        <value type="string" value="Screenkey"/>
-        <value type="string" value="obs"/>
-        <value type="string" value="steam"/>
-        <value type="string" value="ownCloud"/>
-        <value type="string" value="discord1"/>
-        <value type="string" value="Slack1"/>
+        <value type="string" value="networkmanager applet"/>
       </property>
     </property>
+    <property name="plugin-2" type="empty"/>
     <property name="plugin-3" type="empty">
       <property name="items" type="empty"/>
     </property>
@@ -87,7 +72,7 @@
       <property name="show-frame" type="empty"/>
     </property>
     <property name="plugin-9" type="string" value="separator">
-      <property name="style" type="uint" value="1"/>
+      <property name="style" type="uint" value="0"/>
       <property name="expand" type="bool" value="false"/>
     </property>
     <property name="plugin-10" type="string" value="separator">
