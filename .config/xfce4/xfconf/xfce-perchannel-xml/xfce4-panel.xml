@@ -46,6 +46,12 @@
         <value type="string" value="mintupdate.py"/>
         <value type="string" value="networkmanager applet"/>
       </property>
+      <property name="known-items" type="array">
+        <value type="string" value="Slack1"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="zoom"/>
+      </property>
     </property>
     <property name="plugin-2" type="empty"/>
     <property name="plugin-3" type="empty">
