@@ -6,8 +6,8 @@
   <property name="close-after-select" type="bool" value="false"/>
   <property name="window-width" type="int" value="650"/>
   <property name="window-height" type="int" value="470"/>
-  <property name="window-x" type="int" value="635"/>
-  <property name="window-y" type="int" value="283"/>
+  <property name="window-x" type="int" value="688"/>
+  <property name="window-y" type="int" value="304"/>
   <property name="exclude-paths" type="string" value="/dev;~/.cache;~/.gvfs;"/>
   <property name="list-toggle" type="bool" value="true"/>
   <property name="show-thumbnails" type="bool" value="false"/>

@@ -46,8 +46,8 @@
       <property name="monitorDVI-I-1" type="empty">
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="1"/>
-          <property name="last-image" type="string" value="/home/ys/Pictures/Wallpaper/Neon-Nights.jpeg"/>
+          <property name="image-style" type="int" value="4"/>
+          <property name="last-image" type="string" value="/home/ys/Pictures/Wallpaper/sending.png"/>
           <property name="backdrop-cycle-enable" type="bool" value="false"/>
         </property>
         <property name="workspace1" type="empty">
@@ -92,7 +92,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/xfce4/backdrops/linuxmint.jpg"/>
+          <property name="last-image" type="string" value="/home/ys/Pictures/Wallpaper/sending.png"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
@@ -113,8 +113,8 @@
       <property name="monitorDP-0" type="empty">
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="4"/>
-          <property name="last-image" type="string" value="/home/ys/Pictures/Wallpaper/sending.png"/>
+          <property name="image-style" type="int" value="1"/>
+          <property name="last-image" type="string" value="/home/ys/Pictures/Avatar-The-Last-Airbender-Wallpapers-Free.jpg"/>
           <property name="backdrop-cycle-enable" type="bool" value="false"/>
         </property>
         <property name="workspace1" type="empty">
@@ -159,8 +159,30 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/home/ys/Pictures/Wallpaper/sending.png"/>
+          <property name="last-image" type="string" value="/home/ys/Pictures/Avatar-The-Last-Airbender-Wallpapers-Free.jpg"/>
           <property name="backdrop-cycle-enable" type="bool" value="false"/>
+        </property>
+        <property name="workspace1" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/usr/share/xfce4/backdrops/linuxmint.jpg"/>
+        </property>
+        <property name="workspace2" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/usr/share/xfce4/backdrops/linuxmint.jpg"/>
+        </property>
+        <property name="workspace3" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/usr/share/xfce4/backdrops/linuxmint.jpg"/>
+        </property>
+      </property>
+      <property name="monitorHDMI-1" type="empty">
+        <property name="workspace0" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/home/ys/Pictures/Wallpaper/sending.png"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
@@ -202,6 +224,6 @@
   </property>
   <property name="last" type="empty">
     <property name="window-width" type="int" value="743"/>
-    <property name="window-height" type="int" value="573"/>
+    <property name="window-height" type="int" value="702"/>
   </property>
 </channel>

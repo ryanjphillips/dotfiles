@@ -6,27 +6,9 @@ windows:
   - General:
       layout: 6bc7,239x62,0,0{119x62,0,0,0,119x62,120,0[119x40,120,0,5,119x21,120,41,6]}
       panes:
-        - cd $HOME && clear
-        - cd $HOME && clear
-        - cd $HOME && clear 
-  - RaspberryPi:
-      layout: 6bc7,239x62,0,0{119x62,0,0,0,119x62,120,0[119x40,120,0,5,119x21,120,41,6]}
-      panes:
-        - cd $HOME && clear 
-        - cd $HOME && clear 
-        - cd $HOME && clear 
-  - Music:
-      layout: even-vertical
-      panes:
-        - ncspot
-        - cava
-  - Project-Scholar: 
-      layout: c91b,239x62,0,0{119x62,0,0,0,119x62,120,0[119x24,120,0,2,119x25,120,25,3,119x11,120,51,4]} 
-      panes:
-        - cd $SCHOLAR && clear
-        - cd $SCHOLAR && clear
-        - cd $SCHOLAR && clear
-        - cd $SCHOLAR && clear
+        - cd $HOME && clear && cat /home/ys/response.json | jq -c '.['$((1 + RANDOM % 49))'].q'
+        - cd $HOME && clear && cat /home/ys/response.json | jq -c '.['$((1 + RANDOM % 49))'].q'
+        - cd $HOME && clear && cat /home/ys/response.json | jq -c '.['$((1 + RANDOM % 49))'].q'
   - Notes: 
       layout: c91b,239x62,0,0{119x62,0,0,0,119x62,120,0[119x24,120,0,2,119x25,120,25,3,119x11,120,51,4]} 
       panes:
@@ -34,6 +16,23 @@ windows:
         - cd ~ys/Notes && clear
         - cd ~ys/Notes && clear
         - cd ~ys/Notes && clear
+  - cs1575:
+      layout: c91b,239x62,0,0{119x62,0,0,0,119x62,120,0[119x24,120,0,2,119x25,120,25,3,119x11,120,51,4]} 
+      panes:
+        - cd ~/Code/School-Code/cs1575 && clear
+        - cd ~/Code/School-Code/cs1575 && clear
+        - cd ~/Code/School-Code/cs1575 && clear
+        - cd ~/Code/School-Code/cs1575 && clear
+  - Music:
+      layout: even-vertical
+      panes:
+        - ncspot
+        - cava
+  - Calender: 
+      layout: even-vertical 
+      panes:
+        - calcurse 
+        - cd $HOME && clear 
   - System:
       layout: even-vertical
       panes:
